@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>form validation</title>
+   <meta charset="UTF=8">
+   <meta name="description" content="free web tutorial">
+   <meta name="viewport" content="width=device-width,initial-scale=0.1">
+   <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div class="user-form">
+	    <form>
+		    <h2>sign up form</h2>
+			   <div class="form-group">
+			        <input type="text" name="fname" placeholder="enter your name"  class="form-controls">
+					<p class="error-msg">please enter your name...!</p>
+				</div>
+				
+							   <div class="form-group">
+			        <input type="text" name="lname" placeholder="enter your name"  class="form-controls">
+					<p class="error-msg">please enter your name...!</p>
+				</div>
+				
+							   <div class="form-group">
+			        <input type="number" name="num" placeholder="enter your phone number"  class="form-controls">
+					<p class="error-msg">please enter your phone number...!</p>
+				</div>
+				
+							   <div class="form-group">
+			        <input type="email" name="mail" placeholder="enter your email address"  class="form-controls">
+					<p class="error-msg">please enter your email...!</p>
+				</div>
+				
+				<div class="form-group">
+				    <input type="radio" name="gen" class="form-controls">
+					<label for="gen">male</label>
+					
+					<input type="radio" name="gen" class="form-controls">
+					<label for="gen">female</label><br>
+				<button type="button" onclick="onSignUp()" class="btn">Sign Up</button>
+        </form>
+		</div>
+		
+		<script src="main.js"></script>
+   </body>
+   </html>
